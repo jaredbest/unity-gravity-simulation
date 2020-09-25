@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody))]
+[RequireComponent (typeof (Rigidbody))]
 public class StartForce : MonoBehaviour {
 
 	[SerializeField]
@@ -8,9 +8,9 @@ public class StartForce : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Rigidbody rb = GetComponent<Rigidbody>();
-		
+		Rigidbody rb = GetComponent<Rigidbody> ();
+
 		rb.AddForce (force, ForceMode.Impulse);
 	}
-	
+
 }

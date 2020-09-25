@@ -6,5 +6,5 @@ public class World : MonoBehaviour {
 		Time.timeScale = _speed;
 		//Time.fixedDeltaTime = 0.02F * Time.timeScale;
 	}
-	
+
 }
